@@ -11,7 +11,6 @@ struct HomeViewSearch: View {
     @ObservedObject var fetchModel = FetchDataModel()
 
     @State private var searchText = ""
-//    @State private var isEditing = false
     @State var isEditing : Bool = false
     @Binding var hoverUp : Bool
     

@@ -12,6 +12,9 @@ struct CategoryProduceMeat: View {
 
     var body: some View {
         VStack{
+            Spacer()
+                .frame(height: 15)
+            
             HStack{
                 Spacer()
                     .frame(width: 25)
@@ -28,7 +31,7 @@ struct CategoryProduceMeat: View {
             }
             
             Spacer()
-                .frame(height: 15)
+                .frame(height: 10)
             
             HStack{
                 Spacer()
